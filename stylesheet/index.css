@@ -1,0 +1,143 @@
+@import url(./utilities.css);
+
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Rubik", sans-serif;
+}
+
+body {
+  background: #e5e5e5;
+}
+
+nav {
+  background: #9fcccc;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.05);
+  width: 100%;
+  height: 20vh;
+  position: sticky;
+  top: 0;
+}
+
+.container {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.logo {
+  height: 10vh;
+  align-items: center;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.image {
+  vertical-align: middle;
+}
+
+.contributor {
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contributor h1 {
+  color: #fff;
+}
+
+.select select {
+  margin-left: 0.5rem;
+  padding: 0.8rem 1.5rem;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0px 1px 15px rgba(0, 0, 0, 0.07);
+  cursor: pointer;
+  color: #777777;
+}
+/* *************nav ends******************************************************** */
+main {
+  width: 70%;
+  margin: 3rem auto;
+}
+.card {
+  width: 100%;
+  height: 17vh;
+  background: #fff;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.07);
+  border-radius: 10px;
+  margin: 2rem 0;
+}
+
+.card-container {
+  padding: 1rem;
+}
+
+.card .avatar {
+  float: left;
+  margin-right: 1rem;
+  background: #e6f1f1;
+  border: 5px solid #ffffff;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.card-txt {
+  line-height: 0.3in;
+}
+
+.gist {
+  display: flex;
+  width: 52%;
+  height: 6vh;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.gist span {
+  display: flex;
+  padding: 0 0.5rem 0 0;
+}
+
+.gist span img,
+.gist span b {
+  padding: 0 0.5rem 0 0;
+}
+
+.fas {
+  font-size: 1.5rem;
+  color: #fff;
+  padding: 0 0.4rem;
+  cursor: pointer;
+}
+/* ******************DARK MODE*********************************** */
+.dark-body {
+  background: #161b22;
+}
+
+.nav-dark {
+  background: #1f2029;
+  color: #fff;
+}
+
+.card-dark {
+  background: #161b22;
+  border: 1px solid #9fcccc;
+  color: #fff;
+}
+
+.card-dark h3 {
+  color: #9fcccc;
+  font-weight: 400;
+}
+
+.hide {
+  display: none;
+}
