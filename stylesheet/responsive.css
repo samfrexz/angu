@@ -1,10 +1,30 @@
-@media (max-width: 950px) {
+@media (max-width: 900px) {
+  .gist span p {
+    display: flex;
+  }
+
+  main {
+    width: 95%;
+    margin: 2rem auto;
+  }
+}
+
+@media (max-width: 600px) {
   .container {
-    width: 96%;
+    min-width: 95%;
   }
 
   nav {
-    height: 23vh;
+    min-height: 26vh;
+  }
+
+  .contributor {
+    height: 15vh;
+    flex-wrap: wrap;
+  }
+
+  .select select {
+    padding: 0.6rem 1rem;
   }
 
   body {
@@ -12,12 +32,12 @@
   }
 
   main {
-    width: 95%;
-    margin: 2rem auto;
+    min-width: 96%;
+    /* margin: 2rem auto; */
   }
 
   .card {
-    min-height: 26vh;
+    min-height: 25vh;
   }
 
   .card-txt {
@@ -25,18 +45,17 @@
   }
 
   .gist {
-    height: 14px;
+    /* min-height: 8vh; */
     width: 95%;
     justify-content: space-around;
     flex-wrap: wrap;
 
-    /* flex-wrap: wrap; */
-    /* align-items: flex-end; */
+    align-items: flex-end;
   }
 
-  /* .gist span p {
+  .gist span p {
     display: none;
-  } */
+  }
 
   .gist span,
   .gist span img,
